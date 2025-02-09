@@ -1,0 +1,44 @@
+# Deployment dependencies
+wheel
+gunicorn
+python-dotenv
+
+Flask==2.3.3
+# Flask-DotEnv
+Flask-Caching
+Flask-Threads
+flask-log-request-id
+flask-cors
+
+python-dateutil
+oauth2client
+redis==4.6.0
+
+# Database dependencies
+toml
+motor==3.3.2
+pydantic==2.5
+bunnet==1.2.0
+
+# Parse yaml files
+pyyaml
+
+# Make API calls
+requests
+
+# Request schema validator
+Cerberus==1.3.5
+
+# Authentication
+# PyJWT
+
+# Scheduled jobs
+celery[redis]==5.3.4
+flower==2.0.1
+dill==0.3.7
+celery-redbeat==2.1.1
+
+# Testing
+pytest-flask
+pytest-factoryboy
+coverage
